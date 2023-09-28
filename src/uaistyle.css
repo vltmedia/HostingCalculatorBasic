@@ -1,0 +1,457 @@
+
+
+p{
+font-family: 'Poppins';
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+h4 {
+    font-size: 50px;
+    color: #fff;
+    /* font-weight: 700; */
+    font-weight: 600;
+    line-height: 110%;
+    text-align-last: center;
+    font-family: 'Poppins';
+    /* font-family: 'Lemon/Milk light'; */
+    letter-spacing: 4px;
+
+}
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    width:100% !important;
+    max-width:100% !important;
+}
+.body div{
+    background-color:#0A0B10;
+}
+.App{
+    background-color:#0A0B10;
+}
+.uai-bg{
+    background-color:#0A0B10;
+}
+
+.uai-bg-alternate{
+    background-color:#0E111A;
+}
+.uai-button-base {
+
+    /* background: #F5A214;
+border-radius: 66px; */
+
+/* display: inline-block;
+color: #fff;
+background-color: #F5A214;
+text-align: left;
+padding: 10px 40px;
+cursor: pointer;
+vertical-align: middle;
+text-decoration: none;
+transition: all 0.2s linear;
+margin-bottom: 17px;
+border: 2px solid #F5A214;
+border-radius: 50px;
+font-size: 14px;
+letter-spacing: 2px;
+box-sizing: border-box; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+
+}
+
+
+.section-wrapper-features {
+    position: relative;
+    padding: 50px 0 50px;
+}
+.section-wrapper-faqitem {
+    position: relative;
+    padding: 10px 0 10px;
+}
+
+.faq-questionbox {
+    text-align-last: left;
+}
+.faq-questiontext{
+    font-weight: 700;
+    text-align: inherit;
+}
+.faq-answertext{
+    font-weight: normal;
+    text-align: inherit;
+}
+
+
+/* .radio-group{
+    accent-color: #F5A214;
+
+}
+
+.radio-group input{
+    background-color: blue;
+
+} */
+
+input[type='radio'] {
+    border: 2px solid red !important;
+   }
+
+
+   /* completely hiding radio button */
+input[type="radio"] {
+    display: none;
+  }
+  
+  /* simulate radiobutton appearance using pseudoselector */
+  input[type="radio"] + label:before {
+    content: "";
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    margin-right: 5px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1px solid #F5A214;
+    background-color: #e7e6e700;
+    border-radius: 50%;
+  }
+  
+  /* appearance of checked radiobutton */
+  input[type="radio"]:checked + label:before {
+    background-color: #F5A214;
+  }
+  
+  /* resetting default box-sizing */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+
+.lineEdit {
+    border: 1px solid #F5A214;
+    background: #0A0B10;
+    color: white;
+}
+
+.combobox {
+    border: 1px solid #F5A214;
+    background: #0A0B10;
+    color: white;
+}
+
+.combobox option {
+    background: #0A0B10;
+    color: white;
+}
+
+
+
+.vButton {
+    display: inline-block;
+    color: #fff;
+    background-color: #F5A214;
+    text-align: left;
+    padding: 10px 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    margin-bottom: 17px;
+    border: 2px solid #F5A214;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.vButton:hover {
+    background-color: #f5a31400;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    color: #F5A214;
+
+}
+
+.landing_footer-content {
+
+    text-align-last: left;
+    width: 189px;
+}
+
+.landing_footer-title {
+
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+
+
+/* unvisited link */
+.landing_footer-link:link {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  /* visited link */
+  .landing_footer-link:visited {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  /* mouse over link */
+  .landing_footer-link:hover {
+    color: #F5A214 !important;
+  }
+  
+  /* selected link */
+  .landing_footer-link:active {
+    color: rgb(255, 255, 255) !important;
+  }
+
+.landing_footer-containter {
+
+    display: flex;
+    padding: 10px;
+
+}
+.landing_footer-list {
+
+    list-style-type: none;
+    list-style-image: none;
+    display: list-item;
+
+
+}
+
+.landing_footer-social-icon {
+
+    /* width: 1em;
+    height: 1em; */
+
+
+}
+
+/* .landing_footer-containter-overall {
+
+    display: flex;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 40px;
+    height: 189px;
+    background: #090B10;
+} */
+
+.landing_footer-containter-social-title {
+
+font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.landing_footer-containter-social-title-Follow {
+
+/* width: 195px; */
+font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 14px;
+padding-top: 0px;
+}
+
+.landing_footer-containter-social {
+
+    /* padding-left: 157px;
+    padding-right: 132px; */
+
+}
+
+.FollowUs-container {
+    width: 82px;
+    /* padding-left: 15px;
+    padding-right: 132px; */
+
+}
+
+
+.video-BG {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* width: 100%; */
+    width: 100vw;
+  }
+  .video-wrapperBG {
+    border: 0px solid #000;
+    width: 100%;
+    /* height: 200px; */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    height: 266px;
+  }
+  .videoBGContent{
+    /* position: absolute; */
+    /* top: 100vh; */
+    place-self: center;
+    z-index: 1;
+  }
+
+  #overlay {
+    position: absolute;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    ;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .ForceFullWidth {
+    width: 100vw;
+  }
+  .Force100Width {
+    width: 100%;
+  }
+
+  .CardInfo-Left {
+    text-align: left;
+    padding-left: 7px;
+  }
+  .CardInfo-Center {
+    text-align: center;
+    /* padding-left: 7px; */
+  }
+  .CardInfo-Container {
+    border: solid 1px;
+    border-radius: 2px;
+    max-width: 512px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bold-text-raw {
+    font-weight: 700;
+  }
+  .CardInfo-Container-NotLined {
+    border: solid 0px;
+    border-radius: 2px;
+    max-width: 512px;
+
+    position: relative;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    text-align: center;
+  }
+  .CardInfo-SmallerItems-Container {
+    display: flex;
+    font-size: 15px;
+    place-content: center;
+  }
+  .CardInfo-LineItem {
+    display: inline;
+    font-size: 15px;
+    place-content: center;
+  }
+  .CardInfo-LineItem-Small {
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 123px;
+  }
+  .ImageGalleryItem-Solo {
+    /* max-height: 60vh; */ 
+    width: auto;
+    /* height: 100%; */
+    /* display: block; */
+    /* object-fit: scale-down; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ImageGalleryItem-Solo-small {
+    /* max-height: 60vh; */ 
+    width: inherit;
+    /* height: 100%; */
+    /* display: block; */
+    /* object-fit: scale-down; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ImageGalleryItem {
+    /* width: 100%; */
+    width: auto;
+/* object-fit: scale-down; */
+    display: 'block';
+    cursor: pointer;
+  }
+  .CardInfo-Container-ButtonBar-Vertical{
+    display:inline;
+  }
+  .TopMargin10 {
+    margin-top: 10px;
+  }
+  .NOPaadding {
+    padding : 0px !important ;
+  }
+  .CardInfo-Small-Body {
+    font-size: small ;
+  }
+
+  .CardInfo-Container-Area {
+    background-color: #0A0B10;
+  }
+  .Remix-DownloadLink {
+    color: #F5A214 !important;
+    /* color: #3A57E8 !important; */
+  }
+  .override-CardBody-1em {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
+  .button-alreadyClicked{
+    
+  }
+  .button-clickable{
+cursor: pointer;
+  }
