@@ -11,4 +11,4 @@ npm install
 npm start
 ```
 
-![Screenshot](./public/public/preview.jpg)
+![Screenshot](https://github.com/vltmedia/HostingCalculatorBasic/blob/master/public/preview.jpg?raw=true)
